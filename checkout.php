@@ -17,55 +17,7 @@
 
 	<?php include "header.php "?>
 
-	<!-- Menu -->
-
-	<div class="menu menu_mm trans_300">
-		<div class="menu_container menu_mm">
-			<div class="page_menu_content">
-							
-				<div class="page_menu_search menu_mm">
-					<form action="#">
-						<input type="search" required="required" class="page_menu_search_input menu_mm" placeholder="Search for products...">
-					</form>
-				</div>
-				<ul class="page_menu_nav menu_mm">
-					<li class="page_menu_item has-children menu_mm">
-						<a href="index.html">Home<i class="fa fa-angle-down"></i></a>
-						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Categories<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="product.html">Product<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="cart.html">Cart<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="checkout.html">Checkout<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
-						</ul>
-					</li>
-					<li class="page_menu_item has-children menu_mm">
-						<a href="categories.html">Categories<i class="fa fa-angle-down"></i></a>
-						<ul class="page_menu_selection menu_mm">
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-							<li class="page_menu_item menu_mm"><a href="categories.html">Category<i class="fa fa-angle-down"></i></a></li>
-						</ul>
-					</li>
-					<li class="page_menu_item menu_mm"><a href="index.html">Accessories<i class="fa fa-angle-down"></i></a></li>
-					<li class="page_menu_item menu_mm"><a href="#">Offers<i class="fa fa-angle-down"></i></a></li>
-					<li class="page_menu_item menu_mm"><a href="contact.html">Contact<i class="fa fa-angle-down"></i></a></li>
-				</ul>
-			</div>
-		</div>
-
-		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-
-		<div class="menu_social">
-			<ul>
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</div>
+	<?php include "menu.php"?>
 	
 	<!-- Home -->
 
@@ -262,33 +214,8 @@
 		</div>
 	</div>
 
-	<!-- Footer -->
-	
-	<div class="footer_overlay"></div>
-	<footer class="footer">
-		<div class="footer_background" style="background-image:url(images/footer.jpg)"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
-						<div class="footer_logo"><a href="#">Sublime.</a></div>
-						<div class="copyright ml-auto mr-auto"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-						<div class="footer_social ml-lg-auto">
-							<ul>
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-</div>
+<!-- Footer -->
+<?php include "footer.php" ?>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>

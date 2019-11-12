@@ -14,56 +14,11 @@
 
 	<div class="super_container">
 
+		<!-- header -->
 		<?php include "header.php "?>
 
-		<!-- Menu -->
-
-		<div class="menu menu_mm trans_300">
-			<div class="menu_container menu_mm">
-				<div class="page_menu_content">
-								
-					<div class="page_menu_search menu_mm">
-						<form action="#">
-							<input type="search" required="required" class="page_menu_search_input menu_mm" placeholder="Pesquisar">
-						</form>
-					</div>
-					<ul class="page_menu_nav menu_mm">
-						<li class="page_menu_item has-children menu_mm">
-							<a href="index.php">Home<i class="fa fa-angle-down"></i></a>
-							<ul class="page_menu_selection menu_mm">
-								<li class="page_menu_item menu_mm"><a href="categories.php">Categorias<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="product.php">Produtos<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="cart.php">Carrinho<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="checkout.php">Sair<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="contact.php">Contato<i class="fa fa-angle-down"></i></a></li>
-							</ul>
-						</li>
-						<li class="page_menu_item has-children menu_mm">
-							<a href="categories.php">Categorias<i class="fa fa-angle-down"></i></a>
-							<ul class="page_menu_selection menu_mm">
-								<li class="page_menu_item menu_mm"><a href="categories.php">Categoria<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.php">Categoria<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.php">Categoria<i class="fa fa-angle-down"></i></a></li>
-								<li class="page_menu_item menu_mm"><a href="categories.php">Categoria<i class="fa fa-angle-down"></i></a></li>
-							</ul>
-						</li>
-						<li class="page_menu_item menu_mm"><a href="#">Ofertas<i class="fa fa-angle-down"></i></a></li>
-						<li class="page_menu_item menu_mm"><a href="contact.php">Contato<i class="fa fa-angle-down"></i></a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-
-			<div class="menu_social">
-				<ul>
-					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-		</div>
+		<!-- menu -->
+		<?php include "menu.php"?>
 
 		<!-- Ads -->
 
@@ -118,12 +73,6 @@
 									<div class="product_price">$670</div>
 								</div>
 							</div>
-							<!-- Matheus boa noite durma bem 
-
-								Att.
-									Lameck
-							-->
-							<!-- Product -->
 							<div class="product">
 								<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
 								<div class="product_extra product_sale"><a href="categories.php">Sale</a></div>
@@ -225,9 +174,9 @@
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_1.svg" alt=""></div>
-							<div class="icon_box_title">Free Shipping Worldwide</div>
+							<div class="icon_box_title">Frete grátis em Salvador</div>
 							<div class="icon_box_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+								<p>Frete grátis para cidade de Salvador em compras a partir de $300</p>
 							</div>
 						</div>
 					</div>
@@ -236,9 +185,9 @@
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_2.svg" alt=""></div>
-							<div class="icon_box_title">Free Returns</div>
+							<div class="icon_box_title">Devoluções</div>
 							<div class="icon_box_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+								<p>Em casos de produtos danificados e/ou entregua não concretizada, devolvemos todo valor da compra em Vale Compra da loja ou depósito em conta</p>
 							</div>
 						</div>
 					</div>
@@ -247,9 +196,9 @@
 					<div class="col-lg-4 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon_3.svg" alt=""></div>
-							<div class="icon_box_title">24h Fast Support</div>
+							<div class="icon_box_title">Suporte rápido 24h</div>
 							<div class="icon_box_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie.</p>
+								<p>Suporte rápido 24h em nossos canais</p>
 							</div>
 						</div>
 					</div>
